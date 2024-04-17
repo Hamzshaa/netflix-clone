@@ -27,7 +27,7 @@ export default function Banner() {
 
   return (
     <div
-      className=" -mt-[10vh] h-[80vh] text-[var(--primary-color)] object-contain overflow-hidden"
+      className=" -mt-[10vh] h-[80vh] -mb-10 text-[var(--primary-color)] object-contain overflow-hidde"
       style={{
         backgroundSize: "cover",
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,

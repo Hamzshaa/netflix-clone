@@ -6,7 +6,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 export default function Header() {
   return (
-    <div className="sticky top-0 flex justify-center bg-[rgb(20,20,20)] h-[10vh] text-white transition-all duration-500 ease-in z-1">
+    <div className="sticky top-0 flex justify-center bg-[rgb(20,20,20)] h-[10vh] text-white transition-all duration-500 ease-in z-10">
       <div className="w-[90%] flex justify-between items-center">
         <div className="">
           <ul className="w-[140%] flex justify-between items-center list-none cursor-pointer">

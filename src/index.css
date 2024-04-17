@@ -11,3 +11,14 @@
   --primary-color: #fff;
   --secondary-color: #e50914;
 }
+
+@layer base {
+  .banner_fadeBottom {
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.91),
+      #111
+    );
+  }
+}

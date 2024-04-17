@@ -5,7 +5,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 export default function Footer() {
   return (
     <div className="text-gray-400 flex justify-center">
-      <div className="w-3/5">
+      <div className="w-[60%]">
         <div className="w-[12%] flex justify-between ml-2.5 text[var(--primary-color)]">
           <FacebookOutlinedIcon />
           <InstagramIcon />
@@ -41,11 +41,11 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex items-center justify-center border-2 border-white w-[10%] my-2.5 cursor-pointer w-fit">
+        <div className="flex items-center justify-center border-2 border-white w-[20%] my-2.5 cursor-pointer mt-20 sm:mt-12 lg:mt-2.5">
           <p>Service Code</p>
         </div>
         <div className="text-xs mb-2.5">
-          $copy; 1997-{new Date().getFullYear()} Netflix, Inc.
+          &copy; 1997-{new Date().getFullYear()} Netflix, Inc.
         </div>
       </div>
     </div>

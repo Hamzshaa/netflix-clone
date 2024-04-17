@@ -13,11 +13,11 @@ export default function Header() {
             <li>
               <img src={netflixLogo} alt="Netflix Logo" width="100" />
             </li>
-            <li>Home</li>
-            <li>Movies</li>
-            <li>Latest</li>
-            <li>MyList</li>
-            <li>Browse by Languages</li>
+            <li className="hidden md:block">Home</li>
+            <li className="hidden md:block">Movies</li>
+            <li className="hidden md:block">Latest</li>
+            <li className="hidden md:block">MyList</li>
+            <li className="hidden md:block">Browse by Languages</li>
           </ul>
         </div>
         <div className="">
